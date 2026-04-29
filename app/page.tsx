@@ -1,30 +1,17 @@
 export default function Home() {
   const writeups = [
     {
-      title: "Getting Started with Web Development",
-      date: "2026-04-20",
-      excerpt: "A beginner's guide to understanding the fundamentals of building for the web.",
-      slug: "#"
-    },
-    {
-      title: "Notes on Minimalist Design",
-      date: "2026-04-15",
-      excerpt: "Less is more. Exploring the principles behind clean, functional interfaces.",
-      slug: "#"
-    },
-    {
-      title: "The Art of Writing Clear Documentation",
-      date: "2026-04-10",
-      excerpt: "How to communicate complex ideas simply and effectively.",
-      slug: "#"
+      title: "How to Think About Locks",
+      date: "2026-04-25",
+      excerpt: "Understanding the fundamentals of locks in systems programming and concurrent code.",
+      slug: "https://www.linkedin.com/pulse/how-think-locks-onanaroghene-omokefe-b524e/?trackingId=TW4Jx8w5mTJK5nvPJgOqJg%3D%3D"
     }
   ]
 
   const links = [
-    { name: "GitHub", url: "https://github.com" },
-    { name: "Twitter", url: "https://twitter.com" },
-    { name: "Email", url: "mailto:hello@example.com" },
-    { name: "RSS", url: "/rss.xml" }
+    { name: "GitHub", url: "https://github.com/ENuel20" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/onanaroghene-omokefe-648439245/" },
+    { name: "Email", url: "mailto:emmaonana18@gmail.com" }
   ]
 
   return (
@@ -32,9 +19,9 @@ export default function Home() {
       <div className="max-w-2xl mx-auto px-6 py-16">
         {/* Header */}
         <header className="mb-16">
-          <h1 className="text-2xl font-medium mb-2">Your Name</h1>
+          <h1 className="text-2xl font-medium mb-2">Onanaroghene</h1>
           <p className="text-neutral-500">
-            Write-ups and links on things I find interesting.
+            Exploring locks, networking, virtual memory, and systems programming in Rust and C.
           </p>
         </header>
 
